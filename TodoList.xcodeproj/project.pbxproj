@@ -16,6 +16,7 @@
 		E0895C062BFF9C0C0046269D /* Supabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0895C052BFF9C0C0046269D /* Supabase.swift */; };
 		E0C5887A2C055B360081F07C /* AppEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C588792C055B360081F07C /* AppEntryView.swift */; };
 		E0C5887C2C055B7C0081F07C /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C5887B2C055B7C0081F07C /* AuthView.swift */; };
+		E0C588802C060C460081F07C /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C5887F2C060C460081F07C /* NewItemView.swift */; };
 		E0FFB8A22BFCDA7100A021C5 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFB8A12BFCDA7100A021C5 /* TodoListViewModel.swift */; };
 		E0FFB8A52BFF968F00A021C5 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = E0FFB8A42BFF968F00A021C5 /* Auth */; };
 		E0FFB8A72BFF968F00A021C5 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = E0FFB8A62BFF968F00A021C5 /* Functions */; };
@@ -36,6 +37,7 @@
 		E0895C052BFF9C0C0046269D /* Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabase.swift; sourceTree = "<group>"; };
 		E0C588792C055B360081F07C /* AppEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntryView.swift; sourceTree = "<group>"; };
 		E0C5887B2C055B7C0081F07C /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		E0C5887F2C060C460081F07C /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
 		E0FFB8A12BFCDA7100A021C5 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +103,7 @@
 				814A08FB2BC41BC500921E4F /* ItemView.swift */,
 				E0C588792C055B360081F07C /* AppEntryView.swift */,
 				E0C5887B2C055B7C0081F07C /* AuthView.swift */,
+				E0C5887F2C060C460081F07C /* NewItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0C588802C060C460081F07C /* NewItemView.swift in Sources */,
 				815D9D7F2BC413800050957E /* LandingView.swift in Sources */,
 				E0895C062BFF9C0C0046269D /* Supabase.swift in Sources */,
 				814A08FC2BC41BC500921E4F /* ItemView.swift in Sources */,
